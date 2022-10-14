@@ -1,24 +1,43 @@
-# README
+# React / Rails Template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Check Versions
 
-Things you may want to cover:
+Make sure you have Ruby and Node installed:
 
-* Ruby version
+* `ruby -v`
+* `node -v`
 
-* System dependencies
+This template uses Ruby v 3.0.2 and Node v 16.17.0
 
-* Configuration
+## Setup
 
-* Database creation
+To use this template do the following:
 
-* Database initialization
+* Fork this repo and clone down your fork
+* cd into the directory
+* Install the dependencies:
 
-* How to run the test suite
+Rails dependencies:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
 
-* Deployment instructions
+React Dependencies:
 
-* ...
+```
+cd client
+npm install
+npm run dev
+```
+
+## Dev Environment
+
+Rails Server Runs on port 3000
+
+Vite Sever Runs React on port 5173
+
+## Notes
+
+* This template uses sqlite3 for the database - you can change this in the `database.yml` file
+
